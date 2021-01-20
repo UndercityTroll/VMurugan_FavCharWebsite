@@ -46,7 +46,6 @@ let scene3 = new ScrollMagic.Scene({
   triggerElement: gif2,
   triggerHook: 0
 })
-  .addIndicators()
   .setPin(gif2)
   .addTo(controller);
 
@@ -58,7 +57,6 @@ let scene4 = new ScrollMagic.Scene({
   triggerElement: gif2,
   triggerHook: 0
 })
-  .addIndicators()
   .setTween(textAnim2)
   .addTo(controller);
 
