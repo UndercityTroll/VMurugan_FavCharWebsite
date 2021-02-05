@@ -1,7 +1,15 @@
 body
 {
     background-image: url(../assets/Backgrounds/SidePages/ChInfo.png);
-    background-size:cover;
+    background-size:contain;
     background-position:top;
     background-repeat: no-repeat;
+    height: 200vh;
+}
+
+.BackButton
+{
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }

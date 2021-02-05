@@ -13,9 +13,10 @@ const textgif2 = gif2.querySelector("h1");
 
 //SCROLLMAGIC
 const controller = new ScrollMagic.Controller();
+const metacontroller = new ScrollMagic.Controller(); 
 
 //-------------------------------Scenes-----------------------------------------------
-
+// 
 //-------------1st Page--------------
 
 //1st scene gif
