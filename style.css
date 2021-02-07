@@ -27,6 +27,34 @@
     color: red;
   }
   
+  /*
+    Portfolio Section
+  
+
+  .portfolioBKG {
+    
+  }
+
+  */
+
+  .Portfolio {
+    height: 100vh;
+  }
+
+  .portfolioBKG{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .portfolioLink {
+    position: relative;
+    top: -83%;
+    right: -24.2%;
+    height: 36.25%;
+    width: 36.25%;
+  }
+
   section {
     height: 100vh;
     color: black;
