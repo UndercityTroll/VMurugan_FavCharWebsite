@@ -55,6 +55,14 @@
     width: 36.25%;
   }
 
+  .workcitedLink {
+    position: relative;
+    top: -75%;
+    right: 0%;
+    height: 7.50%;
+    width: 5.00%;
+  }
+
   section {
     height: 100vh;
     color: black;
