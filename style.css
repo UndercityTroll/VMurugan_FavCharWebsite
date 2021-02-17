@@ -28,13 +28,7 @@
   }
   
   /*
-    Portfolio Section
-  
-
-  .portfolioBKG {
-    
-  }
-
+    Portfolio + Ch info/history + Work Cited Section
   */
 
   .Portfolio {
@@ -62,6 +56,34 @@
     height: 7.50%;
     width: 5.00%;
   }
+
+  /*
+    Animation History + Video Link Section
+  */
+
+  .Page2 {
+    height: 100vh;
+  }
+
+  .Page2BKG{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .animationHistoryLink{
+    position: relative;
+    top: -17%;
+    right: -32%;
+  }
+
+  .animationexampleLink{
+    position: relative;
+    top: -65%;
+    right: -10%;
+  }
+
+
 
   section {
     height: 100vh;
