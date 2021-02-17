@@ -44,9 +44,14 @@
   .portfolioLink {
     position: relative;
     top: -83%;
-    right: -24.2%;
+    right: -24.1%;
     height: 36.25%;
     width: 36.25%;
+    transition: 0.2s;
+  }
+
+  .portfolioLink:hover{
+    transform: scale(1.02);
   }
 
   .workcitedLink {
@@ -55,12 +60,22 @@
     right: 0%;
     height: 7.50%;
     width: 5.00%;
+    transition: 0.2s;
+  }
+
+  .workcitedLink:hover{
+    transform: scale(1.05);
   }
 
   .characterInfoLink {
     position: relative;
     top: -36.75%;
     right: 0%;
+    transition: 0.2s;
+  }
+
+  .characterInfoLink:hover{
+    transform: scale(1.02);
   }
 
   /*
@@ -81,18 +96,33 @@
     position: relative;
     top: -19.5%;
     right: -32%;
+    transition: 0.2s;
+  }
+
+  .animationHistoryLink:hover{
+    transform: scale(1.1);
   }
 
   .animationexampleLink{
     position: relative;
     top: -67.5%;
     right: -10%;
+    transition:o.2s;
+  }
+
+  .animationexampleLink:hover{
+    transform: scale(1.05);
   }
 
   .artistBioLink{
     position: relative;
     top: -63%;
     right: 6.5%;
+    transition: 0.2s;
+  }
+
+  .artistBioLink:hover{
+    transform: scale(1.05);
   }
 
   section {
