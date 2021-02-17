@@ -79,17 +79,21 @@
 
   .animationHistoryLink{
     position: relative;
-    top: -17%;
+    top: -19.5%;
     right: -32%;
   }
 
   .animationexampleLink{
     position: relative;
-    top: -65%;
+    top: -67.5%;
     right: -10%;
   }
 
-
+  .artistBioLink{
+    position: relative;
+    top: -63%;
+    right: 6.5%;
+  }
 
   section {
     height: 100vh;
