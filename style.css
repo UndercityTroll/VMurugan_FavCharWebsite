@@ -57,6 +57,12 @@
     width: 5.00%;
   }
 
+  .characterInfoLink {
+    position: relative;
+    top: -36.75%;
+    right: 0%;
+  }
+
   /*
     Animation History + Video Link Section
   */
