@@ -1,15 +1,45 @@
-body
-{
-    background-image: url(../assets/Backgrounds/SidePages/ArtistBio.png);
-    background-size:contain;
-    background-position:top;
-    background-repeat: no-repeat;
-    height: 200vh;
-}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F9F5E3;
+  }
+  
+    body {
+        font-family: sans-serif;
+    }
+  
+    .ArtistBio{
+        height: 100vh;
+    }
 
-.BackButton
-{
-    position: fixed;
-    bottom: 0;
-    right: 0;
-}
+    .artistBioPageBKG{
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+    }
+
+    .infoTag{
+        position: relative;
+        height: 15%;
+        width: 15%;
+        top: -95%;
+        right: -62.5%;
+    }
+
+    .contactTag{
+        position: relative;
+        height: 15%;
+        width: 15%;
+        top: -90%;
+        right: -62.5%;
+    }
+
+
+
+    .BackButton
+    {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
