@@ -1,15 +1,46 @@
-body
-{
-    background-image: url(../assets/Backgrounds/SidePages/Portfolio/Portfolio.png);
-    background-size:contain;
-    background-position:top;
-    background-repeat: no-repeat;
-    height: 200vh;
-}
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+    body {
+        font-family: sans-serif;
+        background-color: #F9F5E3;
+        align-items: center;
+        text-align:center;
+        padding: 20px;
+    } 
 
-.BackButton
-{
-    position: fixed;
-    bottom: 0;
-    right: 0;
-}
+    .animatedRotoscope{
+        height:90vh;
+        padding:20px;
+    }
+
+    .rotoscope{
+        height:90vh;
+        padding:20px;
+    }
+
+    .alDrawing{
+        height:90vh;
+        padding:20px;
+    }
+
+    .shortFilm{
+        height:90vh;
+        padding:20px;
+    }
+
+    .BackButton
+    {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        animation:0.2s;
+        padding: 10px;
+    }
+
+    .BackButton:hover{
+        transform:scale(1.05);
+    }
