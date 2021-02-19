@@ -21,21 +21,36 @@
 
     .infoTag{
         position: relative;
-        height: 15%;
-        width: 15%;
+        width: 245px;
         top: -95%;
-        right: -62.5%;
+        right: -62.75%;
+    }
+
+    .info{
+        position:relative;
+        top: -92%;
+        background-color: #e6e6e6;
+        padding: 20px;
+        margin-left:48%;
+        margin-right:5%;
     }
 
     .contactTag{
         position: relative;
-        height: 15%;
-        width: 15%;
+        width: 245px;
         top: -90%;
-        right: -62.5%;
+        right: -62.75%;
     }
 
-
+    .contact{
+        position:relative;
+        top: -88%;
+        background-color: #e6e6e6;
+        text-align: center;
+        padding: 20px;
+        margin-left:48%;
+        margin-right:5%;
+    }
 
     .BackButton
     {
