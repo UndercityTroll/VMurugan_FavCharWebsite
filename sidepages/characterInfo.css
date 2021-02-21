@@ -17,6 +17,7 @@ body{
     right: 0;
     animation:0.2s;
     padding: 10px;
+	z-index: 9999;
 }
 
 .BackButton:hover{
