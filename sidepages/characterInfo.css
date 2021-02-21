@@ -7,9 +7,16 @@ body{
 	font-size:12px;
 	color: #333;
     font-family: 'Oswald', sans-serif;
-	height: 200vh;
+	height: 0vh;
+	background-color: rgb(104, 71, 58);
 }
  
+.MainBKG{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+  }
+
 .BackButton
 {
     position: fixed;
@@ -37,7 +44,7 @@ body{
 	border-radius:10px;
 }
 .booklet .b-wrap-left  {
-	background:#fff url(../assets/Backgrounds/SidePages/Animation\ History/Detailed-Features/images/left_bg.jpg) no-repeat top left;
+	background:#fff url(../assets/Backgrounds/SidePages/CHInfo/Detailed-Features/images/left_bg.jpg) no-repeat top left;
 	-webkit-border-top-left-radius: 10px;
 	-webkit-border-bottom-left-radius: 10px;
 	-moz-border-radius-topleft:10px;
@@ -46,7 +53,7 @@ body{
 	border-bottom-left-radius: 10px;
 }
 .booklet .b-wrap-right {
-	background:#efefef url(../assets/Backgrounds/SidePages/Animation\ History/Detailed-Features/images/right_bg.jpg) no-repeat top left;
+	background:#efefef url(../assets/Backgrounds/SidePages/CHInfo/Detailed-Features/images/right_bg.jpg) no-repeat top left;
 	-webkit-border-top-right-radius: 10px;
 	-webkit-border-bottom-right-radius: 10px;
 	-moz-border-radius-topright: 10px;
@@ -77,13 +84,13 @@ body{
 	width:905px;
 	height:540px;
 	position:relative;
-	background:transparent url(../assets/Backgrounds/SidePages/Animation\ History/Detailed-Features/images/bg.png) no-repeat 9px 27px;
+	background:transparent url(../assets/Backgrounds/SidePages/CHInfo/Detailed-Features/images/bg.png) no-repeat 9px 27px;
 }
 .book_wrapper h1{
 	color:orange;
 	margin:5px 5px 5px 15px;
 	font-size:24px;
-	background:transparent url(../assets/Backgrounds/SidePages/Animation\ History/Detailed-Features/images/h1.png) no-repeat bottom left;
+	background:transparent url(../assets/Backgrounds/SidePages/CHInfo/Detailed-Features/images/h1.png) no-repeat bottom left;
 	padding-bottom:7px;
     text-transform: uppercase;
     font-weight: normal;
@@ -94,7 +101,7 @@ body{
 }
 .book_wrapper a.article,
 .book_wrapper a.demo{
-	background:transparent url(../assets/Backgrounds/SidePages/Animation\ History/Detailed-Features/images/circle.png) no-repeat 50% 0px;
+	background:transparent url(../assets/Backgrounds/SidePages/CHInfo/Detailed-Features/images/circle.png) no-repeat 50% 0px;
 	display:block;
 	width:95px;
 	height:41px;
