@@ -8,7 +8,10 @@ const end = section.querySelector("h1");
 // ------------ 2nd Gif ------------
 const gif2 = document.querySelector(".video2");
 const videogif2 = gif2.querySelector("video");
-const textgif2 = gif2.querySelector("h1");
+// ------------ 1st Button Page ------------
+const ButtonPage1 = document.querySelector(".Portfolio");
+// ------------ 2nd Button Page ------------
+const ButtonPage2 = document.querySelector(".Page2");
 
 
 //SCROLLMAGIC
@@ -39,26 +42,35 @@ let scene2 = new ScrollMagic.Scene({
   .setTween(textAnim)
   .addTo(controller);
 
+//-------------Button Page 1--------------
+//button page 1 wait timer
+let sceneButtonPage = new ScrollMagic.Scene({
+  duration: 300,
+  triggerElement: ButtonPage1,
+  triggerHook: 0
+})
+  .setPin(ButtonPage1)
+  .addTo(controller);
+
+//-------------Button Page 2--------------
+//button page 2 wait timer
+let sceneButtonPagev2 = new ScrollMagic.Scene({
+  duration: 300,
+  triggerElement: ButtonPage2,
+  triggerHook: 0
+})
+  .setPin(ButtonPage2)
+  .addTo(controller);
+
 //-------------2nd Page--------------
 
 //2nd scene gif
 let scene3 = new ScrollMagic.Scene({
-  duration: 9490,
+  duration: 2500,
   triggerElement: gif2,
   triggerHook: 0
 })
   .setPin(gif2)
-  .addTo(controller);
-
-//2nd text page
-const textAnim2 = TweenMax.fromTo(textgif2, 1, { opacity: 1 }, { opacity: 0 });
-
-let scene4 = new ScrollMagic.Scene({
-  duration: 500,
-  triggerElement: gif2,
-  triggerHook: 0
-})
-  .setTween(textAnim2)
   .addTo(controller);
 
 // --------------- VIDEO ----------------
@@ -79,12 +91,13 @@ setInterval(() => {
 //-----Video 2nd Gif Animation
 let scrollpos2 = 5.7;
 let delay2 = 0;
+let offset = 2;
 
 scene3.on("update", e => {
   scrollpos2 = e.scrollPos / 1000;
 });
 
 setInterval(() => {
-  delay2 += (scrollpos2 - delay2) * accelamount;
+  delay2 += (scrollpos2 - delay2 - offset) * accelamount;
   videogif2.currentTime = delay2-5.7;
 }, 100);
