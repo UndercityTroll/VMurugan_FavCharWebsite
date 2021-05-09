@@ -5,6 +5,7 @@ body
     background-position:top;
     background-repeat: no-repeat;
     height: 200vh;
+    background-color: rgb(172, 179, 184);
 }
 
 .BackButton

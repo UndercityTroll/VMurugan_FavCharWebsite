@@ -13,7 +13,6 @@ const ButtonPage1 = document.querySelector(".Portfolio");
 // ------------ 2nd Button Page ------------
 const ButtonPage2 = document.querySelector(".Page2");
 
-
 //SCROLLMAGIC
 const controller = new ScrollMagic.Controller();
 const metacontroller = new ScrollMagic.Controller(); 
