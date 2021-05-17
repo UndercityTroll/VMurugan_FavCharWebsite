@@ -1,16 +1,409 @@
 body
 {
-    background-image: url(../assets/Backgrounds/SidePages/Animation\ History/AnimationHistory.png);
-    background-size:contain;
-    background-position:top;
-    background-repeat: no-repeat;
     height: 200vh;
     background-color: rgb(172, 179, 184);
+    position: absolute;
+}
+
+.BackButton:hover{
+	transform:scale(1.05);
+}
+
+.OpenWatch{
+    width: 17vw;
+    position: absolute;
+    top: 49vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+.OpenWatch:hover{
+    transform: scale(1.02) translate(-49%,-49%);
+}
+
+.ClosedWatch{
+    width: 17vw;
+    position: absolute;
+    top: 150vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    transition: 0.2s;
+}
+
+.ClosedWatch:hover{
+    transform: scale(1.02) translate(-49%,-49%);
+}
+
+.History_Markers{
+    background-color: ivory;
+}
+
+/*
+        Marker 1     -----------------------------------------
+*/
+
+.Marker1{
+    background-color: rgb(249, 252, 254);
+    height:30vh;
+    width: 50vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 0vh;
+    left: 50vw;
+    transition: 0.2s;
+    overflow:auto;
+    display: block;
+    transform: translate(-50%,0%);
+    margin:0 auto 10px;
+    text-align: center;
+}
+
+.Marker1:hover{
+    transform: scale(1.02) translate(-49%,0%);
+    background-color: rgb(222, 233, 238);
+}
+
+.img1{
+    height: 20vh;
+}
+
+/*
+        Marker 2     -----------------------------------------
+*/
+
+.Marker2{
+    background-color: rgb(249, 252, 254);
+    height:30vh;
+    width: 50vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 15vh;
+    left: 82vw;
+    transition: 0.2s;
+    overflow:auto;
+    display: block;
+    transform: translate(-50%,0%);
+    margin:0 auto 10px;
+    text-align: center;
+}
+
+.Marker2:hover{
+    transform: scale(1.02) translate(-49%,0%);
+    background-color: rgb(222, 233, 238);
+}
+
+.img2{
+    height: 20vh;
+}
+
+/*
+        Marker 3     -----------------------------------------
+*/
+
+.Marker3{
+    background-color: rgb(249, 252, 254);
+    height:30vh;
+    width: 50vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 50vh;
+    left: 82vw;
+    transition: 0.2s;
+    overflow:auto;
+    display: block;
+    transform: translate(-50%,0%);
+    margin:0 auto 10px;
+    text-align: center;
+}
+
+.Marker3:hover{
+    transform: scale(1.02) translate(-49%,0%);
+    background-color: rgb(222, 233, 238);
+}
+
+.img3{
+    height: 20vh;
+}
+
+/*
+        Marker 4     -----------------------------------------
+*/
+
+.Marker4{
+    background-color: rgb(249, 252, 254);
+    height:30vh;
+    width: 50vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 68vh;
+    left: 50vw;
+    transition: 0.2s;
+    overflow:auto;
+    display: block;
+    transform: translate(-50%,0%);
+    margin:0 auto 10px;
+    text-align: center;
+}
+
+.Marker4:hover{
+    transform: scale(1.02) translate(-49%,0%);
+    background-color: rgb(222, 233, 238);
+}
+
+.img4{
+    height: 20vh;
+}
+
+/*
+        Marker 5     -----------------------------------------
+*/
+
+.Marker5{
+    background-color: rgb(249, 252, 254);
+    height:30vh;
+    width: 50vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 50vh;
+    left: 18vw;
+    transition: 0.2s;
+    overflow:auto;
+    display: block;
+    transform: translate(-50%,0%);
+    margin:0 auto 10px;
+    text-align: center;
+}
+
+.Marker5:hover{
+    transform: scale(1.02) translate(-49%,0%);
+    background-color: rgb(222, 233, 238);
+}
+
+.img5{
+    height: 20vh;
+}
+
+/*
+        Marker 6       -----------------------------------------
+*/
+
+.Marker6{
+    background-color: rgb(249, 252, 254);
+    height:30vh;
+    width: 50vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 15vh;
+    left: 18vw;
+    transition: 0.2s;
+    overflow:auto;
+    display: block;
+    transform: translate(-50%,0%);
+    margin:0 auto 10px;
+    text-align: center;
+}
+
+.Marker6:hover{
+    transform: scale(1.02) translate(-49%,0%);
+    background-color: rgb(222, 233, 238);
+}
+
+.img6{
+    height: 20vh;
+}
+
+
+/*
+        Marker 7     -----------------------------------------
+*/
+
+.Marker7{
+    background-color: rgb(249, 252, 254);
+    height:30vh;
+    width: 50vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 100vh;
+    left: 50vw;
+    transition: 0.2s;
+    overflow:auto;
+    display: block;
+    transform: translate(-50%,0%);
+    margin:0 auto 10px;
+    text-align: center;
+}
+
+.Marker7:hover{
+    transform: scale(1.02) translate(-49%,0%);
+    background-color: rgb(222, 233, 238);
+}
+
+.img7{
+    height: 20vh;
+}
+
+/*
+        Marker 8     -----------------------------------------
+*/
+
+.Marker8{
+    background-color: rgb(249, 252, 254);
+    height:30vh;
+    width: 50vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 115vh;
+    left: 82vw;
+    transition: 0.2s;
+    overflow:auto;
+    display: block;
+    transform: translate(-50%,0%);
+    margin:0 auto 10px;
+    text-align: center;
+}
+
+.Marker8:hover{
+    transform: scale(1.02) translate(-49%,0%);
+    background-color: rgb(222, 233, 238);
+}
+
+.img8{
+    height: 20vh;
+}
+
+/*
+        Marker 9     -----------------------------------------
+*/
+
+.Marker9{
+    background-color: rgb(249, 252, 254);
+    height:30vh;
+    width: 50vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 150vh;
+    left: 82vw;
+    transition: 0.2s;
+    overflow:auto;
+    display: block;
+    transform: translate(-50%,0%);
+    margin:0 auto 10px;
+    text-align: center;
+}
+
+.Marker9:hover{
+    transform: scale(1.02) translate(-49%,0%);
+    background-color: rgb(222, 233, 238);
+}
+
+.img9{
+    height: 20vh;
+}
+
+/*
+        Marker 10     -----------------------------------------
+*/
+
+.Marker10{
+    background-color: rgb(249, 252, 254);
+    height:30vh;
+    width: 50vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 168vh;
+    left: 50vw;
+    transition: 0.2s;
+    overflow:auto;
+    display: block;
+    transform: translate(-50%,0%);
+    margin:0 auto 10px;
+    text-align: center;
+}
+
+.Marker10:hover{
+    transform: scale(1.02) translate(-49%,0%);
+    background-color: rgb(222, 233, 238);
+}
+
+.img10{
+    height: 20vh;
+}
+
+/*
+        Marker 11     -----------------------------------------
+*/
+
+.Marker11{
+    background-color: rgb(249, 252, 254);
+    height:30vh;
+    width: 50vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 150vh;
+    left: 18vw;
+    transition: 0.2s;
+    overflow:auto;
+    display: block;
+    transform: translate(-50%,0%);
+    margin:0 auto 10px;
+    text-align: center;
+}
+
+.Marker11:hover{
+    transform: scale(1.02) translate(-49%,0%);
+    background-color: rgb(222, 233, 238);
+}
+
+.img11{
+    height: 20vh;
+}
+
+/*
+        Marker 12       -----------------------------------------
+*/
+
+.Marker12{
+    background-color: rgb(249, 252, 254);
+    height:30vh;
+    width: 50vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 115vh;
+    left: 18vw;
+    transition: 0.2s;
+    overflow:auto;
+    display: block;
+    transform: translate(-50%,0%);
+    margin:0 auto 10px;
+    text-align: center;
+}
+
+.Marker12:hover{
+    transform: scale(1.02) translate(-49%,0%);
+    background-color: rgb(222, 233, 238);
+}
+
+.img12{
+    height: 20vh;
 }
 
 .BackButton
 {
-    position: fixed;
-    bottom: 0;
-    right: 0;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	animation:0.2s;
+	padding: 10px;
 }

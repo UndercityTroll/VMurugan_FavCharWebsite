@@ -133,3 +133,11 @@ a#prev_page_button:hover{
 	background-position:0px 0px;
 }
  
+.BackButton
+{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	animation:0.2s;
+	padding: 10px;
+}
