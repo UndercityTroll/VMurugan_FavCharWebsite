@@ -141,3 +141,7 @@ a#prev_page_button:hover{
 	animation:0.2s;
 	padding: 10px;
 }
+
+.BackButton:hover{
+	transform:scale(1.05);
+}

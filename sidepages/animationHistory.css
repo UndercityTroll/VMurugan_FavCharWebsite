@@ -5,10 +5,6 @@ body
     position: absolute;
 }
 
-.BackButton:hover{
-	transform:scale(1.05);
-}
-
 .OpenWatch{
     width: 17vw;
     position: absolute;
@@ -406,4 +402,8 @@ body
 	right: 0;
 	animation:0.2s;
 	padding: 10px;
+}
+
+.BackButton:hover{
+	transform:scale(1.05);
 }
