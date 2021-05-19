@@ -8,6 +8,9 @@ const end = section.querySelector("h1");
 // ------------ 2nd Gif ------------
 const gif2 = document.querySelector(".video2");
 const videogif2 = gif2.querySelector("video");
+// ------------ 3rd Gif ------------
+const gif3 = document.querySelector(".video3");
+const videogif3 = gif3.querySelector("video");
 // ------------ 1st Button Page ------------
 const ButtonPage1 = document.querySelector(".Portfolio");
 // ------------ 2nd Button Page ------------
@@ -72,6 +75,17 @@ let scene3 = new ScrollMagic.Scene({
   .setPin(gif2)
   .addTo(controller);
 
+//-------------3rd Page--------------
+
+//3rd scene gif
+let scene4 = new ScrollMagic.Scene({
+  duration: 2500,
+  triggerElement: gif3,
+  triggerHook: 0
+})
+  .setPin(gif3)
+  .addTo(controller);
+
 // --------------- VIDEO ----------------
 //------Video 1st GIF Animation
 let accelamount = 0.2;
@@ -99,4 +113,19 @@ scene3.on("update", e => {
 setInterval(() => {
   delay2 += (scrollpos2 - delay2 - offset) * accelamount;
   videogif2.currentTime = delay2-5.7;
+}, 100);
+
+
+//-----Video 3rd Gif Animation
+let scrollpos3 = 6.5;
+let delay3 = 0;
+let offset2 = 3.5;
+
+scene4.on("update", e => {
+  scrollpos3 = e.scrollPos / 1000;
+});
+
+setInterval(() => {
+  delay3 += (scrollpos3 - delay3 - offset2) * accelamount;
+  videogif3.currentTime = delay3-7;
 }, 100);
