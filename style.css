@@ -154,3 +154,13 @@
     font-size: 80px;
     color: orange;
   }
+
+  .video3 {
+    height: 100vh;
+  }
+  
+  .video3 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
