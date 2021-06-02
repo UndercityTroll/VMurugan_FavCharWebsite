@@ -54,6 +54,19 @@
     transform: scale(1.02);
   }
 
+  .jobApplication {
+    position: relative;
+    top: -53%;
+    right: 20.1%;
+    height: 15.25%;
+    width: 8.25%;
+    transition: 0.2s;
+  }
+
+  .jobApplication:hover{
+    transform: scale(1.02);
+  }
+
   .workcitedLink {
     position: relative;
     top: -75%;
